@@ -1,6 +1,33 @@
 body {
     background-color: whitesmoke;
 }
-footer {
-    background-color: aquamarine;
+}
+div {
+    font-size: 20px;
+    color: tomato;
+    background-color: rgba(64, 224, 208, 0.2);
+}
+header strong a {
+    margin-right: 20px;
+    color: black;
+    font-size: 100px;
+}
+header strong a:hover {
+    color: yellow;
+    transition-duration: 1s;
+}
+
+a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: yellowgreen;
+    transition-duration: 0.3s;
+
+}
+h1:hover {
+    color:royalblue;
+    transition-duration: 0.3s;
 }
