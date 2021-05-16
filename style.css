@@ -1,3 +1,44 @@
+#logo {
+    float: right; /* это просто ужасно */
+}
+li a, .cntct {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .contact:hover .cntct {
+    background-color: yellowgreen;
+  }
+  
+  li.contact {
+    display: inline-block;
+  }
+  
+  .contact-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .contact-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .contact-content a:hover {background-color: #f1f1f1;}
+  
+  .contact:hover:hover .contact-content {
+    display: block;
+  }
 #menu ul {
     list-style-type: none;
     margin: 0;
@@ -20,12 +61,14 @@
   
 #menu li a:hover {
     background-color: #111;
+    color: yellowgreen;
+    transition-duration: 0.3s;
   }
 
 body {
     background-color: whitesmoke;
 }
-}
+
 div {
     font-size: 20px;
     color: tomato;
@@ -46,11 +89,7 @@ a {
     color: black;
     text-decoration: none;
 }
-a:hover {
-    color: yellowgreen;
-    transition-duration: 0.3s;
 
-}
 h1:hover {
     color:royalblue;
     transition-duration: 0.3s;
